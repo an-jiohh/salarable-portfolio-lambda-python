@@ -1,0 +1,22 @@
+[project]
+name = "portfolio-lambda-python"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "an-jiohh", email = "dkswlgh99@naver.com" }
+]
+dependencies = [
+    "pymupdf>=1.24.10",
+    "opencv-python>=4.10.0.84",
+    "cmake>=3.30.2",
+    "numpy>=2.1.1",
+    "dlib>=19.24.6",
+    "pillow>=10.4.0",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[tool.rye]
+managed = true
+virtual = true
+dev-dependencies = []
